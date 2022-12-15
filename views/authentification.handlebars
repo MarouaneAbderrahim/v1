@@ -1,0 +1,28 @@
+<h2>{{titre}}</h2>
+
+<form id="form-auth" novalidate>
+    {{#if inscription}}
+
+    <label>
+        Prenom :
+        <input type="text" id="input-prenom" required>
+    </label>
+    <label>
+        Nom :
+        <input type="text" id="input-nom" required>
+    </label>
+    {{/if}}
+    <label>
+    
+        Courriel: 
+        <input type="text" id="input-nom-utilisateur" required>
+    </label>
+
+    <label>
+        Mot de passe:
+        <input type="password" id="input-mot-de-passe" required>
+    </label>
+
+
+    <input type="submit" value="{{titre}}">
+</form>
